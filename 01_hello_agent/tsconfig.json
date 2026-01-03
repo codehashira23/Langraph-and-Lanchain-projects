@@ -2,7 +2,7 @@
     "compilerOptions": {
         "target": "es2022",//ts assumesjs features apto es 2022
         "module": "esnext",//
-        "moduleResolution": "bundler",
+        "moduleResolution": "bundler",// this says ts to not imitate module resolution like node , it says do in the way of bundlers (next / webpack /etc .. )
         "lib": ["ES2022","DOM"],
         "strict": true,
         "esModuleInterop": true,
